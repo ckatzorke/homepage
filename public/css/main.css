@@ -1,0 +1,25 @@
+body {
+    background-color: #333;
+    color: #f0e68c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* unvisited link */
+a:link {
+    color: #98fb98;
+}
+
+/* visited link */
+a:visited {
+    color: #98fb98;
+}
+
+/* mouse over link */
+a:hover {
+    color: #bdb76b;
+}
+
+/* selected link */
+a:active {
+    color: #98fb98;
+}

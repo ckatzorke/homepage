@@ -1,0 +1,32 @@
+{
+  "title": "Homepage",
+  "name": "@katzorke/christian",
+  "version": "1975.1.9",
+  "description": "Welcome to www.katzorke.io - the private homepage of Christian Katzorke.",
+  "keywords": [
+    "agile architect",
+    "devsecops",
+    "clean coder",
+    "gamer",
+    "movie fanatic",
+    "husband",
+    "father"
+  ],
+  "homepage": "https://www.katzorke.io",
+  "bugs": {
+    "url": "https://github.com/ckatzorke/homepage/issues",
+    "email": "feedback@katzorke.io"
+  },
+  "license": "MIT",
+  "author": "Christian Katzorke (feedback@katzorke.io)",
+  "imprint": "/imprint.html"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckatzorke/homepage.git"
+  },
+  "dependencies": {
+    "devicons": "^1.8.0",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,6 @@
+deploy:
+  provider: script
+  script: netlify deploy -s $NETLIFY_SITEID -t $NETLIFY_TOKEN -p ./public
+  skip_cleanup: true
+  on:
+    branch: master
