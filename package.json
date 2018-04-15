@@ -1,6 +1,6 @@
 {
   "title": "Homepage",
-  "name": "@katzorke/christian",
+  "name": "@katzorke/www",
   "version": "1975.1.9",
   "description": "Welcome to www.katzorke.io - the private homepage of Christian Katzorke.",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "author": "Christian Katzorke (feedback@katzorke.io)",
-  "imprint": "/imprint.html"
+  "imprint": "/imprint.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/ckatzorke/homepage.git"
