@@ -8,6 +8,9 @@ cache:
 env:
   - CI=true
 
+before_deploy:
+  - npm install netlify-cli -g
+  
 deploy:
   provider: script
   script: netlify deploy -s $NETLIFY_SITEID -t $NETLIFY_TOKEN -p ./public
