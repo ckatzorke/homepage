@@ -6,6 +6,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.property {
+    color: cyan;
+}
+
+.value {
+    color: rgb(211, 86, 86);
+}
+
+.icon {
+    font-size: 2.5em;
+}
+
 /* unvisited link */
 a:link {
     color: #98fb98;
