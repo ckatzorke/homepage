@@ -4,6 +4,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+img.icon {
+    vertical-align: bottom;
+}
+
 .content {
     margin: 0 auto;
     width: 80%;
