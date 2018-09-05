@@ -18,6 +18,11 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="vendor/font-mfizz/font-mfizz.css">
 
+  <!-- highlight -->
+  <link rel="stylesheet" href="vendor/highlight/styles/agate.css">
+  <script src="vendor/highlight/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
 
   <link href="css/main.css" rel="stylesheet">
 
@@ -56,52 +61,57 @@
 <body id="page-top">
   <div class="content">
     <center><img class="avatar" src="img/me.png" width="200px" height="200px"></center>
-    <pre class="">
-      {
-        <span class="property">"title"</span>: <span class="value">"Homepage"</span>,
-        <span class="property">"name"</span>: <span class="value">"@katzorke/christian"</span>,
-        <span class="property">"version"</span>: <span class="value">"1975.1.9"</span>,
-        <span class="property">"description"</span>: <span class="value">`<strong>Welcome to www.katzorke.io</strong> - 
-            the private homepage of Christian Katzorke.
-            I am an agile architect, believing in 
-            "Coding, Coaching, Collaboration" as 
-            the key role for an architect in an agile environment.`</span>,
-        <span class="property">"keywords"</span>: [
-          <span class="value">"agile architect"</span>,
-          <span class="value">"devsecops"</span>,
-          <span class="value">"clean coder"</span>,
-          <span class="value">"cloud native"</span>,
-          <span class="value">"gamer"</span>,
-          <span class="value">"movie fanatic"</span>,
-          <span class="value">"husband"</span>,
-          <span class="value">"father"</span>
-        ],
-        <span class="property">"homepage"</span>: <span class="value">"<a href="https://www.katzorke.io">https://www.katzorke.io</a>"</span>,
-        <span class="property">"imprint"</span>: <span class="value">"<a href="https://www.katzorke.io/imprint.html">https://www.katzorke.io/imprint.html</a>"</span>,
-        <span class="property">"privacy"</span>: <span class="value">"<a href="https://www.katzorke.io/privacy.html">https://www.katzorke.io/privacy.html</a>"</span>,
-        <span class="property">"bugs"</span>: {
-          <span class="property">"url"</span>: <span class="value">"<a href="https://github.com/ckatzorke/homepage/issues">https://github.com/ckatzorke/homepage/issues</a>"</span>,
-          <span class="property">"email"</span>: <span class="value">"<a href="mailto:feedback@katzorke.io">feedback@katzorke.io</a>"</span>
-        },
-        <span class="property">"license"</span>: <span class="value">"MIT"</span>,
-        <span class="property">"author"</span>: <span class="value">"Christian Katzorke (<a href="mailto:feedback@katzorke.io">feedback@katzorke.io</a>)"</span>,
-        <span class="property">"repository"</span>: {
-          <span class="property">"type"</span>: <span class="value">"git"</span>,
-          <span class="property">"url"</span>: <span class="value">"<a href="https://github.com/ckatzorke/homepage.git">https://github.com/ckatzorke/homepage.git</a>"</span>
-        },
-        <span class="property">"dependencies"</span>: {
-        },
-        <span class="property">"devDependencies"</span>: {
-          <span class="icon devicons devicons-scrum"></span>, <span class="icon devicons devicons-git"></span>, <span class="icon devicons devicons-github_badge"></span>, <i class="icon devicon-gitlab-plain"></i>, <span class="icon devicons devicons-atlassian"></span>, 
-          <i class="icon devicon-java-plain"></i>, <i class="icon icon-spring"></i>, <i class="icon devicon-tomcat-line"></i>, <i class="icon devicon-python-plain"></i>, <i class="icon devicon-go-plain"></i>, <span class="icon devicons devicons-groovy"></span>, 
-          <span class="icon devicons devicons-javascript_badge"></span>, <i class="icon devicon-typescript-plain"></i>, <i class="icon devicon-angularjs-plain"></i>, <i class="icon devicon-react-original"></i>, <i class="icon devicon-vuejs-plain"></i>, <i class="icon devicon-webpack-plain"></i>, 
-          <span class="icon devicons devicons-nodejs"></span>, <span class="icon devicons devicons-npm"></span>, <i class="icon devicon-mocha-plain"></i>, <i class="icon devicon-meteor-plain"></i>,
-          <span class="icon devicons devicons-jenkins"></span>, <span class="icon devicons devicons-travis"></span>, <span class="icon devicons devicons-opensource"></span>, <span class="icon devicons devicons-terminal_badge"></span>, <span class="icon devicons devicons-redhat"></span>, 
-          <span class="icon devicons devicons-docker"></span>, <span class="icon devicons devicons-openshift"></span>, <span class="icon devicons devicons-aws"></span>, <span class="icon devicons devicons-google-cloud-platform"></span>, <span class="icon devicons devicons-digital-ocean"></span>, 
-          <span class="icon devicons devicons-database"></span>, <span class="icon devicons devicons-postgresql"></span>, <span class="icon devicons devicons-firebase"></span>, <span class="icon devicons devicons-mongodb"></span>
-        }
-      }
-    </pre>
+    <div>
+      <pre>
+        <code class="json">
+{
+  "title": "Homepage",
+  "name": "@katzorke/christian",
+  "version": "1975.1.9",
+  "description": "Welcome to www.katzorke.io - 
+      the private homepage of Christian Katzorke.
+      I am an agile architect, believing in 
+      'Coding, Coaching, Collaboration' as 
+      the key role for an architect in an agile environment.",
+  "keywords": [
+    "agile architect",
+    "devsecops",
+    "clean coder",
+    "cloud native",
+    "gamer",
+    "movie fanatic",
+    "husband",
+    "father"
+  ],
+  "homepage": "https://www.katzorke.io",
+  "imprint": "https://www.katzorke.io/imprint.html",
+  "privacy": "https://www.katzorke.io/privacy.html",
+  "bugs": {
+    "url": "https://github.com/ckatzorke/homepage/issues",
+    "email": "feedback@katzorke.io"
+  },
+  "license": "MIT",
+  "author": "Christian Katzorke (feedback@katzorke.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckatzorke/homepage.git"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    <span class="icon devicons devicons-scrum"></span>, <span class="icon devicons devicons-git"></span>, <span class="icon devicons devicons-github_badge"></span>, <i class="icon devicon-gitlab-plain"></i>, <span class="icon devicons devicons-atlassian"></span>, 
+    <i class="icon devicon-java-plain"></i>, <i class="icon icon-spring"></i>, <i class="icon devicon-tomcat-line"></i>, <i class="icon devicon-python-plain"></i>, <i class="icon devicon-go-plain"></i>, <span class="icon devicons devicons-groovy"></span>, 
+    <span class="icon devicons devicons-javascript_badge"></span>, <i class="icon devicon-typescript-plain"></i>, <i class="icon devicon-angularjs-plain"></i>, <i class="icon devicon-react-original"></i>, <i class="icon devicon-vuejs-plain"></i>, <i class="icon devicon-webpack-plain"></i>, 
+    <span class="icon devicons devicons-nodejs"></span>, <span class="icon devicons devicons-npm"></span>, <i class="icon devicon-mocha-plain"></i>, <i class="icon devicon-meteor-plain"></i>,
+    <span class="icon devicons devicons-jenkins"></span>, <span class="icon devicons devicons-travis"></span>, <span class="icon devicons devicons-opensource"></span>, <span class="icon devicons devicons-terminal_badge"></span>, <span class="icon devicons devicons-redhat"></span>, 
+    <span class="icon devicons devicons-docker"></span>, <span class="icon devicons devicons-openshift"></span>, <span class="icon devicons devicons-aws"></span>, <span class="icon devicons devicons-google-cloud-platform"></span>, <span class="icon devicons devicons-digital-ocean"></span>, 
+    <span class="icon devicons devicons-database"></span>, <span class="icon devicons devicons-postgresql"></span>, <span class="icon devicons devicons-firebase"></span>, <span class="icon devicons devicons-mongodb"></span>
+  }
+}
+        </code>
+      </pre>
+    </div>
     <div class="is-center">
       <p>You can find me here (professional and hobby wise) - whenever you feel to drop me a line for whatever reason.</p>
         <span class="contact">
