@@ -13,7 +13,7 @@ before_deploy:
   
 deploy:
   provider: script
-  script: netlify deploy -s $NETLIFY_SITEID -t $NETLIFY_TOKEN -p ./public
+  script: netlify deploy --site=$NETLIFY_SITEID --auth=$NETLIFY_TOKEN --dir=public --prod
   skip_cleanup: true
   on:
     branch: master
